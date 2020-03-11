@@ -23,7 +23,7 @@ export const mutations = {
             postImage: payload.image,
             likes: 0,
             caption: payload.value,
-            filter: payload.filterType
+            filter: payload.selectedFilter
         };
         state.posts.unshift(post);
     }
